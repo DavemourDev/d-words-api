@@ -1,0 +1,25 @@
+{
+  "name": "words-api",
+  "version": "0.3.0",
+  "description": "An api for retrieving words and definitions.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon -r esm ./main.js"
+  },
+  "author": "Davemour",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "joi": "^17.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "random": "^2.2.0"
+  }
+}
